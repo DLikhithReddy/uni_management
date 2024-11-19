@@ -1,0 +1,20 @@
+{
+  "name": "denguu",
+  "version": "1.0.0",
+  "description": "regarding palcement cell",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "santosh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mo": "^1.7.3",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}

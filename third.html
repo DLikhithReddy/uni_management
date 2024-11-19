@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Programmes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background: url('https://www.transparenttextures.com/patterns/geometry2.png'), linear-gradient(to right, #e0f7fa, #80deea); /* Adding a textured background */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding-top: 80px;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff; /* Dark blue background */
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 0 20px;
+            z-index: 1000;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .text {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .text h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .text h2 {
+            color: #16a085;
+            margin-top: 20px;
+        }
+
+        .text p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .text img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .text img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://www.mahindrauniversity.edu.in/wp-content/uploads/2023/06/Mahindra-University-Logo.svg" alt="Mahindra University Logo">
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/courses">Courses</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="text">
+            <h1>Educational Programmes Offered</h1>
+            <h2>Bachelor of Technology (B.Tech)</h2>
+            <img src="https://media.istockphoto.com/id/164548944/photo/college-students-in-computer-room.jpg?s=612x612&w=0&k=20&c=mAoAUIV-1vWapZVzZcuWOp0ROKN8y7ky8SGcNs6uYOQ=" alt="B.Tech">
+            <p>The Bachelor of Technology (B.Tech) is a four-year undergraduate engineering program that provides students with the theoretical and practical knowledge required to excel in various engineering fields. Throughout the program, students will gain a strong foundation in mathematics, science, and engineering principles. They will also specialize in a particular engineering discipline, such as civil, mechanical, computer science, or electrical engineering.</p>
+            <h2>Master of Technology (M.Tech)</h2>
+            <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-07/13/full/1689271023-7627.jpg?im=FeatureCrop,size=(826,465)" alt="M.Tech">
+            <p>The Master of Technology (M.Tech) is a two-year postgraduate engineering program designed to equip students with advanced knowledge and expertise in a specific engineering field. The M.Tech program builds upon the foundation of knowledge gained in a Bachelor's in Engineering and allows students to delve into more specialized areas of engineering. Students will conduct research, complete coursework, and develop a deeper understanding of complex engineering concepts.</p>
+            <h2>Bachelor of Business Administration (BBA)</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdNRR_AJnUb9kBk-qoufQX17mfEcTPsY2D7w&s" alt="BBA">
+            <p>The Bachelor of Business Administration (BBA) is a four-year undergraduate program that equips students with the knowledge and skills needed for success in the business world. The BBA curriculum covers a wide range of business subjects, including accounting, finance, marketing, management, and economics. Students will gain practical experience through internships, case studies, and business simulations.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mahindra University. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
